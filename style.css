@@ -1,0 +1,93 @@
+/*fuentes de texto*/
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: azure;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    position: relative;
+    height: 100%;
+    width: calc(100% - 80px);
+    right: 5px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div {
+    position: relative;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header div:hover {
+    backdrop-filter: blur(4px);
+    background-color: rgba(240, 248, 255, 0.353);
+    box-shadow: 0px 0px 3px gray;
+}
+
+header div img {
+    width: 35px;
+    height: 35px;
+}
+
+main section {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    border-bottom: rgb(149, 43, 43) 2px solid;
+    background-color: beige;
+    overflow: hidden;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main section .titulo {
+    cursor: pointer;
+    width: 100%;
+    padding-left: 18px;
+}
+
+main section #detalles {
+    height: 0;
+}
+
+main section #dinero {
+    color: green;
+}
+
+main section .grafica {
+    color: rgb(255, 0, 85);
+}
+
+main section .historial {
+    color: rgb(0, 102, 255);
+}
+
+main section .pagos-pendientes {
+    color: rgb(47, 63, 87);
+}
+
+main section .cuenta {
+    color: rgb(91, 54, 165);
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "id":0,
+        "nombre": "cartera",
+        "dinero_total": 92.2,
+        "dinero_ingresado_total": 0,
+        "dinero_gastado_total": 0,
+        "pagos_pendientes": 0,
+        "datos_esta_semana": {
+            "dinero_ingresado": 0,
+            "dinero_sacado": 0
+        },
+        "registro_actividad": []
+    },
+    {
+        "id":1,
+        "nombre": "cartera",
+        "dinero_total": 0,
+        "dinero_ingresado_total": 0,
+        "dinero_gastado_total": 0,
+        "pagos_pendientes": 0,
+        "datos_esta_semana": {
+            "dinero_ingresado": 0,
+            "dinero_sacado": 0
+        },
+        "registro_actividad": []
+    }
+]

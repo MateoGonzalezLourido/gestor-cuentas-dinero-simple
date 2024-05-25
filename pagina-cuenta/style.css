@@ -1,0 +1,96 @@
+/*fuentes de texto*/
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: azure;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    position: relative;
+    height: 100%;
+    width: calc(100% - 80px);
+    right: 5px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div {
+    position: relative;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header div:hover {
+    backdrop-filter: blur(4px);
+    background-color: rgba(240, 248, 255, 0.353);
+    box-shadow: 0px 0px 3px gray;
+}
+
+header div img {
+    width: 35px;
+    height: 35px;
+}
+
+main .administrar-cuenta {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aquamarine;
+    width: calc(100% - 16px);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: 2px solid #353535;
+}
+
+main .administrar-cuenta .cabeza {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+main .administrar-cuenta .esta-semana {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+
+main .administrar-cuenta .cuerpo {
+    display: flex;
+    margin-top: 8px;
+}
+main .administrar-cuenta .cabeza .nombre-cuenta {
+    text-transform: uppercase;
+}
+
+nav{
+    position: fixed;
+    right: 0;
+    display: none;
+    height: 100%;
+    width: 225px;
+    background-color: #f2f2f2;
+    border-left: 1px solid #000;
+}
+nav div{
+    cursor: pointer;
+}
